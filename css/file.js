@@ -1,9 +1,5 @@
 $(document).ready(function() {
-    $("#blanks form").submit(function()
-
-function mytest()
-{
-    var optradio = $("input:radio[name=optradio]:checked").val();
+    $("#blanks form").submit(function(event){
 
 
 var q1=document.forms["myform"]["optradio"].value;
@@ -38,7 +34,10 @@ if(q6=="No")
 {
  marks=marks+3;
 }
-alert ("your score is:"+marks);
+$(".final").show();
+$("#display").text(result)
+event
 
+}
 }
 
