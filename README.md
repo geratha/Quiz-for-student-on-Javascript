@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## project name
 
 Quiz of student on Javascript
@@ -17,3 +18,5 @@ bootstap,jquery
 ##copyright and license information.
 
 (c) Uwamahoro Geratha,  MIT License 2018.
+
+# Quiz-for-student-on-Javascript

@@ -2,12 +2,12 @@ $(document).ready(function() {
     $("#blanks form").submit(function(event){
 
 
-var q1=document.forms["myform"]["optradio"].value;
-var q2=document.forms["myform"]["opt"].value;
-var q1=document.forms["myform"]["size"].value;
-var q2=document.forms["myform"]["red"].value;
 var q1=document.forms["myform"]["black"].value;
-var q2=document.forms["myform"]["blue2"].value;
+var q2=document.forms["myform"]["black"].value;
+var q1=document.forms["myform"]["black"].value;
+var q2=document.forms["myform"]["black"].value;
+var q1=document.forms["myform"]["black"].value;
+var q2=document.forms["myform"]["black"].value;
 var marks=0;
 
 if(q1=="True")
@@ -34,10 +34,4 @@ if(q6=="No")
 {
  marks=marks+3;
 }
-$(".final").show();
-$("#display").text(result)
-event
-
-}
-}
-
+alert("your score:"+marks);
