@@ -16,4 +16,4 @@ bootstap,jquery
 
 ##copyright and license information.
 
-(c) Uwamahoro Geratha, MIT License 2018.
+(c) Uwamahoro Geratha,  MIT License 2018.
