@@ -1,2 +1,44 @@
-var optradio = $("input:radio[name=optradio]:checked").val();
-    
+$(document).ready(function() {
+    $("#blanks form").submit(function()
+
+function mytest()
+{
+    var optradio = $("input:radio[name=optradio]:checked").val();
+
+
+var q1=document.forms["myform"]["optradio"].value;
+var q2=document.forms["myform"]["opt"].value;
+var q1=document.forms["myform"]["size"].value;
+var q2=document.forms["myform"]["red"].value;
+var q1=document.forms["myform"]["black"].value;
+var q2=document.forms["myform"]["blue2"].value;
+var marks=0;
+
+if(q1=="True")
+{
+ marks=marks+2;
+ }
+if(q2=="Tree")
+{
+ marks=marks+3;
+ }
+if(q3=="Var")
+{
+ marks=marks+2;
+}
+if(q4=="Statically")
+{
+ marks=marks+3;
+}
+if(q5=="False")
+{
+ marks=marks+2;
+}
+if(q6=="No")
+{
+ marks=marks+3;
+}
+alert ("your score is:"+marks);
+
+}
+

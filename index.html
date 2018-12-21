@@ -2,8 +2,10 @@
 <html>
   <head>
       <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
-      <link href="./css/style.css" rel ="stylesheet" type ="text/css">
-   
+      <link rel ="stylesheet" type="text/css" href="css/style.css">
+      
+      <script   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
       <script src="css/file.js"></script>
       
       <title>Multiple choice project</title>
@@ -11,7 +13,7 @@
     <Body>
         <div class="container">
       
-            <h1>Quiz for student on Javascript</h1>
+            <h1><strong>Quiz for student on Javascript</strong</h1>
             <h2>Instructions</h2>
             <ul>
               <li>Before answer register yourself</li>
@@ -21,57 +23,57 @@
               <li>Answer all questions</li>
             </ul>
                   <div class="questions"></div>
+                  <form name="myform" method="post" onsubmit="return mytest()">
                   <p>Questions</p>
                   <ol>
                     <li>
-                  <P>Are Attributes and Property the same?</P>
+                  <P class ="q1"><strong>Are Attributes and Property the same?</strong></P class >
                   <label class="radio-inline"><input type="radio" name="optradio" value="true">True</label><br>
                   <label class="radio-inline"><input type="radio" name="optradio" value="false">False</label><br>
                 </li>
               <li>
-                  <p>In how many ways a Javascript code can be involved in an HTML file?</p>
-                
-                  <label class="radio-inline"><input type="radio" name="opt">five times</label><br>
-                  <label class="radio-inline"><input type="radio" name="opt">Tree times</label><br>
-                  <label class="radio-inline"><input type="radio" name="opt">two times</label><br>
-                  <label class="radio-inline"><input type="radio" name="opt">no right answer</label><br>
+                  <p class ="q2"><strong></p>>In how many ways a Javascript code can be involved in an HTML file?</strong></p class>           <label class="radio-inline"><input type="radio" name="opt"value="five times">five times</label><br>
+                  <label class="radio-inline"><input type="radio" name="opt"value="tree times">tree times</label><br>
+                  <label class="radio-inline"><input type="radio" name="opt"value="two times">two times</label><br>
+                  <label class="radio-inline"><input type="radio" name="opt"value="no right answer">no right answer</label><br>
                   
               </li>
               <li>
-                  <p>What are the new ways to define a variable in Javascript?</p>
+                  <p class ="q3">What are the new ways to define a variable in Javascript?</p class>
                   
-                   <label class="radio-inline"><input type="radio" name="size">const</label><br>
-                    <label class="radio-inline"><input type="radio" name="size">const</label><br>
-                    <label class="radio-inline"><input type="radio" name="size">let</label><br>
+                   <label class="radio-inline"><input type="radio" name="size"value="var">const</label><br>
+                    <label class="radio-inline"><input type="radio" name="size"value="const">const</label><br>
+                    <label class="radio-inline"><input type="radio" name="size"value="let">let</label><br>
                   
                 </li>
                 <li>
-                    <p>What is a Typed Language?</p>
-                    <label class="radio-inline"><input type="radio" name="red">Statically</label><br>
-                    <label class="radio-inline"><input type="radio" name="red">Dynamically</label><br>
-            
+                    <p class="q4"><strong>one of this is a Typed Language.</strong></p class>
+                    <label class="radio-inline"><input type="radio" name="red"value="Statically">Statically</label><br>
+                    <label class="radio-inline"><input type="radio" name="red"value="Mentor">Dynamically</label><br>
+                    <label class="radio-inline"><input type="radio" name="red"value="non is right answer">Dynamically</label><br>
+
                   </li>
                   <li>
-                      <p>Are Javascript and JScript the same.</p>
-                      <label class="radio-inline"><input type="radio" name="black">True</label><br>
-                      <label class="radio-inline"><input type="radio" name="black">False</label><br>
+                      <p class ="q5"><strong>Are Javascript and JScript the same.</strong></p class>
+                      <label class="radio-inline"><input type="radio" name="black"value="Tue">True</label><br>
+                      <label class="radio-inline"><input type="radio" name="black"value="False">False</label><br>
               
               </li>
               <li>
-                  <p>Are Typescript and Javascript the same?</p>
-                  <label class="radio-inline"><input type="radio" name="blue">Yes</label><br>
-                        <label class="radio-inline"><input type="radio" name="blue">Not</label><br>
+                  <p class="q6"><strong>Are Typescript and Javascript the same?</strong></p class>
+                  <label class="radio-inline"><input type="radio" name="blue"value="Yes">Yes</label><br>
+                        <label class="radio-inline"><input type="radio" name="blue"value=Not>Not</label><br>
                 
                 </li>
                     </ol>
                     <button type="submit" class="btn btn-default">Submit</button>
-                    <button type="Your Score/10" class="btn btn-default">Your Score/10</button>
+                    <button type="Your Score/15" class="btn btn-default">Your Score/15</button>
+                  </form>
                   </div>
-                  <class name="Score"></class>
+
                 
                 
                 
-                <script   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-                   <script src="js/scripts.js"></script>
+                
                   </Body>
                 </html>
