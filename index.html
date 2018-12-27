@@ -1,8 +1,8 @@
 <!Doctype html>
 <html>
   <head>
-      <link href="bootstrap-3.3.7-dist" rel="stylesheet" type="text/css">
-      <link rel ="css/style.css" type="text/css" href="css/style.css">
+      <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link rel ="stylesheet" type="text/css" href="css/style.css">
       
       <script   src="./jquery-3.3.1.min.js"></script>
     
@@ -16,7 +16,6 @@
             <h1><strong>Quiz for student on Javascript</strong</h1>
             <h2>Instructions</h2>
             <ul>
-              <li>Before answer register yourself</li>
               <li>Chose the light answer</li>
               <li>click on bullet inflontof your answer</li>
               <li>check your answer before subumit</li>
@@ -28,52 +27,48 @@
                   <ol>
                     <li>
                   <P class ="q1"><strong>Are Attributes and Property the same?</strong></P class >
-                  <label class="radio-inline"><input type="radio" name="optradio" value="true">True</label><br>
-                  <label class="radio-inline"><input type="radio" name="optradio" value="false">False</label><br>
+                  <label class="radio-inline"><input type="radio" name="optradio" value="true" class="correct">True</label><br>
+                  <label class="radio-inline"><input type="radio" name="optradio" value="false" class="correct"required >False</label><br>
                 </li>
               <li>
-                  <p class ="q2"><strong></p>>In how many ways a Javascript code can be involved in an HTML file?</strong></p class>           <label class="radio-inline"><input type="radio" name="opt"value="five times">five times</label><br>
-                  <label class="radio-inline"><input type="radio" name="opt"value="tree times">tree times</label><br>
-                  <label class="radio-inline"><input type="radio" name="opt"value="two times">two times</label><br>
-                  <label class="radio-inline"><input type="radio" name="opt"value="no right answer">no right answer</label><br>
+                  <p class ="q2"><strong></p>In how many ways a Javascript code can be involved in an HTML file?</strong></p class>           <label class="radio-inline"><input type="radio" name="opt"value="five times">five times</label><br>
+                  <label class="radio-inline"><input type="radio" name="opt"value="true" class="correct" required>tree times</label><br>
+                  <label class="radio-inline"><input type="radio" name="opt"value="false" required>two times</label><br>
+                  <label class="radio-inline"><input type="radio" name="opt"value="false" required>no right answer</label><br>
                   
               </li>
               <li>
-                  <p class ="q3">What are the new ways to define a variable in Javascript?</p class>
+                  <p class ="q3">What are the new ways to define a variable in Javascript?</p>
                   
-                   <label class="radio-inline"><input type="radio" name="size"value="var">const</label><br>
-                    <label class="radio-inline"><input type="radio" name="size"value="const">const</label><br>
-                    <label class="radio-inline"><input type="radio" name="size"value="let">let</label><br>
+                   <label class="radio-inline"><input type="radio" name="size"value="true" class="correct" required>var</label><br>
+                    <label class="radio-inline"><input type="radio" name="size"value="false" required>const</label><br>
+                    <label class="radio-inline"><input type="radio" name="size"value="false" required>let</label><br>
                   
                 </li>
                 <li>
                     <p class="q4"><strong>one of this is a Typed Language.</strong></p class>
-                    <label class="radio-inline"><input type="radio" name="red"value="Statically">Statically</label><br>
-                    <label class="radio-inline"><input type="radio" name="red"value="Mentor">Dynamically</label><br>
-                    <label class="radio-inline"><input type="radio" name="red"value="non is right answer">Dynamically</label><br>
+                    <label class="radio-inline"><input type="radio" name="red"value="true" class="correct" required>Statically</label><br>
+                    <label class="radio-inline"><input type="radio" name="red"value="false" required>Dynamically</label><br>
+                    <label class="radio-inline"><input type="radio" name="red"value="false" required>non is right answer</label><br>
 
                   </li>
                   <li>
                       <p class ="q5"><strong>Are Javascript and JScript the same.</strong></p class>
-                      <label class="radio-inline"><input type="radio" name="black"value="Tue">True</label><br>
-                      <label class="radio-inline"><input type="radio" name="black"value="False">False</label><br>
+                      <label class="radio-inline"><input type="radio" name="black"value="Tue" required>True</label><br>
+                      <label class="radio-inline"><input type="radio" name="black"value="False" class="correct" required>False</label><br>
               
               </li>
               <li>
                   <p class="q6"><strong>Are Typescript and Javascript the same?</strong></p class>
-                  <label class="radio-inline"><input type="radio" name="blue"value="Yes">Yes</label><br>
-                        <label class="radio-inline"><input type="radio" name="blue"value=Not>Not</label><br>
+                  <label class="radio-inline"><input type="radio" name="blue"value="False" required>Yes</label><br>
+                        <label class="radio-inline"><input type="radio" name="blue"value="true" class="correct" required>Not</label><br>
                 
                 </li>
                     </ol>
                     <button type="submit" class="btn btn-default">Submit</button>
-                    <button type="Your Score/15" class="btn btn-default">Your Score/15</button>
-                  </form>
-                  </div>
-
-                
-                
-                
-                
-                  </Body>
-                </html>
+             </form>
+        </div>
+        <div id="quiz"></div>
+        <h1 id="result"></h1>
+  </Body>
+</html>
